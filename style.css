@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
+.grid{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -115,7 +115,7 @@ body{
     .item3{
         margin: 0;
     }
-    body{
+    .grid{
         flex-wrap: wrap;
         gap: 0px;
     }
